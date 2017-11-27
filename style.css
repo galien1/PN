@@ -2,7 +2,7 @@ body {
     background-image: url(download.png);
     background-size: cover;                      /* <------ */
     background-repeat: no-repeat;
-    height: 100%;         /* optional, center the image */
+    height: 100%;
 }
 
 button {
@@ -15,6 +15,7 @@ button {
     display: inline-block;
     font-size: 16px;
     width: 40%;
+    margin-top: 30%;
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 1%;
@@ -24,30 +25,3 @@ p {
   text-align: center;
   color: red;
 }
-
-.blink_text {
-
-    animation:1s blinker linear infinite;
-    -webkit-animation:1s blinker linear infinite;
-    -moz-animation:1s blinker linear infinite;
-
-     color: red;
-    }
-
-    @-moz-keyframes blinker {
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
-
-    @-webkit-keyframes blinker {
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
-
-    @keyframes blinker {
-     0% { opacity: 1.0; }
-     50% { opacity: 0.0; }
-     100% { opacity: 1.0; }
-     }
